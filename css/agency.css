@@ -64,7 +64,7 @@ h6 {
 .btn-container {
   text-align: center;
   margin-top: 20px;
-}
+} 
 
 .img-left {
     margin-left: -50%;
@@ -193,6 +193,7 @@ fieldset[disabled] .btn-primary.active {
     display: inline;
     position: relative;
     opacity: .6;
+    margin-bottom: 2%;
 }
 
 .play-btn:hover,
@@ -322,7 +323,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 50px;
+    margin-bottom: 2%;
     text-transform: uppercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 7vw;
@@ -358,7 +359,7 @@ header .intro-text .intro-button-bar .header-button {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 2%;
         text-transform: uppercase;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 7vw;
