@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 1.75;
 }
 
@@ -103,6 +103,10 @@ h6 {
     opacity: 0;
 }
 
+.btn {
+    font-size: 1vw;
+}
+
 .btn-primary {
     border-color: #B70921;
     text-transform: uppercase;
@@ -162,6 +166,7 @@ fieldset[disabled] .btn-primary.active {
 
 .play-btn {
     width: 8%;
+    min-width: 60px;
     padding: 30px 20px 0 0;
     display: inline;
     position: relative;
@@ -298,7 +303,7 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 70px;
+    font-size: 5vw;
     font-weight: 300;
     line-height: 70px;
     color: #ecf0f1;
@@ -334,7 +339,7 @@ header .intro-text .intro-button-bar .header-button {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 70px;
+        font-size: 5vw;
         font-weight: 300;
         line-height: 70px;
         color: #ecf0f1;
