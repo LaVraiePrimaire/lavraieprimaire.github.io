@@ -35,8 +35,20 @@
             <div class="intro-text">
                 <div class="intro-heading">LA VRAIE PRIMAIRE</div>
                 <div class="btn-container">
-                    <a class="btn btn-primary" href="#" target="_blank">sign up for our newsletter</a>
-                </div>
+                    <form class="description" id="formname" name="formname" action="https://my.sendinblue.com/users/subscribeembed/js_id/2c40i/id/1" onsubmit="return false;">
+                        <input type="hidden" name="js_id" id="js_id" value="2c40i">
+                        <input type="hidden" name="listid" id="listid" value="2">
+                        <input type="hidden" name="from_url" id="from_url" value="yes">
+                        <input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+                        <input type="text" class = "email-input" name="email" id="email" placeholder="you@you.com">
+                        <div>
+                            <button type="submit" id="submissionBtn" class="btn btn-primary">tenir informé</button>
+                        </div>
+                    </form>
+                    <div id="thanks" style="display:none" class="btn btn-primary">Merci</div>
+
+<!--                     <a class="btn btn-primary" href="#" target="_blank">sign up for our newsletter</a>
+ -->                </div>
                 <div class="btn-container">
                     <a class="btn btn-secondary" href="/blog">read the latest news</a>
                 </div>
@@ -138,6 +150,7 @@
     <script src="js/contact_me.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 
