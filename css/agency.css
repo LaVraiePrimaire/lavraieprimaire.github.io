@@ -417,11 +417,11 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-aside {
+.partners {
     background-color: #ecf0f1;
 }
 
-aside.partners img {
+.partners img {
     margin: 50px auto;
 }
 
