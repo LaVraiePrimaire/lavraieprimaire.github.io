@@ -431,8 +431,8 @@ section h3.section-subheading {
 
 .img-logo {
     height: 5%;
-    padding: 0 1.5vw 0 1.5vw;
-
+/*    padding: 0 1.5vw 0 1.5vw;
+*/
 }
 
 .img-responsive:hover {
