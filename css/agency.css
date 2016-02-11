@@ -104,7 +104,8 @@ h6 {
 }
 
 .btn {
-    font-size: 1vw;
+    font-size: 2vw;
+    font-size: 14px;
 }
 
 .btn-primary {
@@ -303,7 +304,8 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 5vw;
+    font-size: 7vw;
+    font-size 70px;
     font-weight: 300;
     line-height: 70px;
     color: #ecf0f1;
@@ -339,7 +341,8 @@ header .intro-text .intro-button-bar .header-button {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5vw;
+        font-size: 7vw;
+        font-size: 70px;
         font-weight: 300;
         line-height: 70px;
         color: #ecf0f1;
