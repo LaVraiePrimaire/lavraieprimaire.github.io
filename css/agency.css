@@ -92,7 +92,6 @@ h6 {
     font-weight: 400;
     text-align: center;
     font-size: 2vw;
-    font-size: 14px;
 }
 
 .thanks-rect {
@@ -111,7 +110,23 @@ h6 {
 
 .btn {
     font-size: 2vw;
-    font-size: 14px;
+}
+
+@media(min-width:768px) {
+    .email-input {
+        background-color: #ecf0f1;
+        color: #211E16;
+        padding: .6% 1.2% .6% 1.2%;
+        width: 25%;
+        border-radius: 3px;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
+    }
 }
 
 .btn-primary {
