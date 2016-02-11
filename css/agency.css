@@ -104,7 +104,7 @@ h6 {
 }
 
 .btn {
-    font-size: 100vw;
+    font-size: 2vw;
     font-size: 14px;
 }
 
@@ -296,8 +296,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 header .intro-text .intro-heading {
@@ -306,7 +306,7 @@ header .intro-text .intro-heading {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 7vw;
     font-size 70px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 70px;
     color: #ecf0f1;
     opacity: .95;
