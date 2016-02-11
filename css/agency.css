@@ -86,6 +86,21 @@ h6 {
     border-radius: 3px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    text-align: center;
+}
+
+.thanks-rect {
+    border-color: #B70921;
+    text-transform: uppercase;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    color: #ecf0f1;
+    background-color: #B70921;
+    padding: 5px 10px 5px 10px;
+    width: 25%;
+    opacity: .8;
+    border-radius: 5%
+    opacity: 0;
 }
 
 .btn-primary {
@@ -98,6 +113,7 @@ h6 {
     padding: 5px 10px 5px 10px;
     width: 25%;
     opacity: .8;
+    border-radius: 5%
 }
 
 .btn-primary:hover,
@@ -142,6 +158,22 @@ fieldset[disabled] .btn-primary.active {
     background-color: #B70921;
     opacity: 1;
     color: #ecf0f1;
+}
+
+.play-btn {
+    width: 8%;
+    padding: 30px 20px 0 0;
+    display: inline;
+    position: relative;
+    opacity: .6;
+}
+
+.play-btn:hover,
+.play-btn:focus,
+.play-btn:active,
+.play-btn.active,
+.open .dropdown-toggle.play-btn {
+    opacity: 1;
 }
 
 .btn-secondary {
