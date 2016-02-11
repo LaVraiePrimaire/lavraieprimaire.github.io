@@ -57,6 +57,10 @@ h6 {
     font-weight: 700;
 }
 
+.logo {
+    width: 20%;
+}
+
 .btn-container {
   text-align: center;
   margin-top: 20px;
@@ -81,12 +85,14 @@ h6 {
 .email-input {
     background-color: #ecf0f1;
     color: #211E16;
-    padding: 5px 10px 5px 10px;
+    padding: .6% 1.2% .6% 1.2%;
     width: 25%;
     border-radius: 3px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     text-align: center;
+    font-size: 1vw;
+    font-size: 14px;
 }
 
 .thanks-rect {
@@ -96,7 +102,7 @@ h6 {
     font-weight: 300;
     color: #ecf0f1;
     background-color: #B70921;
-    padding: 5px 10px 5px 10px;
+    padding: .6% 1.2% .6% 1.2%;
     width: 25%;
     opacity: .8;
     border-radius: 5%
@@ -104,7 +110,7 @@ h6 {
 }
 
 .btn {
-    font-size: 2vw;
+    font-size: 1vw;
     font-size: 14px;
 }
 
@@ -115,7 +121,7 @@ h6 {
     font-weight: 300;
     color: #ecf0f1;
     background-color: #B70921;
-    padding: 5px 10px 5px 10px;
+    padding: .6% 1.2% .6% 1.2%;
     width: 25%;
     opacity: .8;
     border-radius: 5%
@@ -190,7 +196,7 @@ fieldset[disabled] .btn-primary.active {
     color: #ecf0f1;
     background-color: rgba(18, 64, 178, .9);
     opacity: .8;
-    padding: 5px 10px 5px 10px;
+    padding: 2% 4% 2% 4%;
     width: 25%;
 
 
