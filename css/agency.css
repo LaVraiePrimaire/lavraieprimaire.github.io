@@ -67,6 +67,7 @@ h6 {
 .btn-container {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 } 
 
 .img-left {
@@ -89,7 +90,7 @@ h6 {
     background-color: #ecf0f1;
     color: #211E16;
     padding: .6% 1.2% .6% 1.2%;
-    width: 25%;
+    width: 100%;
     border-radius: 3px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -120,7 +121,7 @@ h6 {
         background-color: #ecf0f1;
         color: #211E16;
         padding: .6% 1.2% .6% 1.2%;
-        width: 25%;
+        width: 100%;
         border-radius: 3px;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-weight: 400;
@@ -140,7 +141,7 @@ h6 {
     color: #ecf0f1;
     background-color: #B70921;
     padding: .6% 1.2% .6% 1.2%;
-    width: 25%;
+    width: 100%;
     opacity: .8;
     border-radius: 5%
 }
@@ -190,7 +191,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .play-btn {
-    width: 8%;
+    width: 12%;
     min-width: 60px;
     padding: 30px 20px 0 0;
     display: inline;
@@ -211,13 +212,13 @@ fieldset[disabled] .btn-primary.active {
     border-color: #1240B2;
     text-transform: lowercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 300;
-    color: #ecf0f1;
-    background-color: rgba(18, 64, 178, .9);
-    opacity: .8;
-    width: 25%;
-
-
+    font-weight: 400;
+    color: #1240B2;
+    background-color: rgba(236, 240, 241, .6);
+    opacity: 1;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .btn-secondary:hover,
@@ -225,17 +226,17 @@ fieldset[disabled] .btn-primary.active {
 .btn-secondary:active,
 .btn-secondary.active,
 .open .dropdown-toggle.btn-secondary {
+    color: #1240B2;
+    background-color: rgba(236, 240, 241, .6);
     opacity: 1;
-    color: #ecf0f1;
-    background-color: #1240B2;
 }
 
 .btn-secondary:active,
 .btn-secondary.active,
 .open .dropdown-toggle.btn-secondary {
-    background-image: none;
+    color: #1240B2;
+    background-color: rgba(236, 240, 241, .6);
     opacity: 1;
-    background-color: #1240B2;
 }
 
 .btn-secondary.disabled,
@@ -253,14 +254,14 @@ fieldset[disabled] .btn-secondary:active,
 .btn-secondary.disabled.active,
 .btn-secondary[disabled].active,
 fieldset[disabled] .btn-secondary.active {
+    color: #1240B2;
+    background-color: rgba(236, 240, 241, .6);
     opacity: 1;
-    color: #ecf0f1;
-    background-color: #1240B2;
 }
 
 .btn-secondary .badge {
-    color: #d35400;
-    background-color: #ecf0f1;
+    color: #1240B2;
+    background-color: rgba(236, 240, 241, .6);
     opacity: 1;
 }
 
@@ -433,6 +434,7 @@ section h3.section-subheading {
 
 .img-responsive {
     opacity: .6;
+    height: 3%;
 }
 
 .img-logo {
