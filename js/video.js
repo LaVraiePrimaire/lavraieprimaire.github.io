@@ -19,11 +19,11 @@ function onYouTubeIframeAPIReady() {
     hl: 'fr-fr',
   });
 
-  $('#myModal').on('shown.bs.modal', function() {
+  $('#videoModal').on('shown.bs.modal', function() {
     player.playVideo();
   });
 
-  $('#myModal').on('hidden.bs.modal', function() {
+  $('#videoModal').on('hidden.bs.modal', function() {
     player.pauseVideo();
   });
 }
