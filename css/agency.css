@@ -100,12 +100,12 @@ h6 {
 }
 
 .thanks-rect {
-    border-color: #B70921;
+    border-color: #D3091D;
     text-transform: uppercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #ecf0f1;
-    background-color: #B70921;
+    background-color: #D3091D;
     padding: .6% 1.2% .6% 1.2%;
     width: 25%;
     opacity: .8;
@@ -136,12 +136,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #B70921;
+    border-color: #D3091D;
     text-transform: uppercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #ecf0f1;
-    background-color: #B70921;
+    background-color: #D3091D;
     padding: .6% 1.2% .6% 1.2%;
     width: 100%;
     opacity: .8;
@@ -153,8 +153,8 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #B70921;
-    background-color: #B70921;
+    border-color: #D3091D;
+    background-color: #D3091D;
     opacity: 1;
     color: #ecf0f1;
 }
@@ -181,13 +181,13 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #B70921;
+    background-color: #D3091D;
     color: #ecf0f1;
     opacity: 1;
 }
 
 .btn-primary .badge {
-    background-color: #B70921;
+    background-color: #D3091D;
     opacity: 1;
     color: #ecf0f1;
 }
@@ -259,6 +259,10 @@ fieldset[disabled] .btn-secondary.active {
     color: #1240B2;
     background-color: rgba(236, 240, 241, .6);
     opacity: 1;
+}
+
+.btn-control {
+    font-size: 100;
 }
 
 .btn-secondary .badge {
@@ -399,7 +403,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 section h3.section-subheading {
@@ -541,12 +545,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #B70921;
+    background: #D3091D;
 }
 
 ::selection {
     text-shadow: none;
-    background: #B70921;
+    background: #D3091D;
 }
 
 img::selection {
@@ -558,5 +562,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #B70921;
+    webkit-tap-highlight-color: #D3091D;
 }
