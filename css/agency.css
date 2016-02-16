@@ -9,6 +9,7 @@ body {
     font-family: "Lato";
     font-weight: 300;
     color: #211E16;
+    background-color: #ecf0f1;
 }
 
 .text-muted {
@@ -21,7 +22,7 @@ body {
 
 p {
     font-size: 1vw;
-    line-height: 12;
+    line-height: 1.5;
 }
 
 p.large {
@@ -64,6 +65,14 @@ h6 {
 
 h6 {
     line-height: 1.5;
+}
+
+hr { 
+    display: block;
+    margin: 5px 5%;
+    height: 3px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#D3091D), to(#D3091D), color-stop(50%, #1A5CE5));
 }
 
 .logo {
@@ -322,14 +331,18 @@ fieldset[disabled] .btn-secondary.active {
 header {
     text-align: center;
     color: #ecf0f1;
-    background-attachment: scroll;
-    background-image: url(../img/headerbackground.jpg);
-    background-position: center center;
-    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-color: #ecf0f1;
+}
+
+#home-header {
+    background-attachment: scroll;
+    background-image: url(../img/headerbackground.jpg);
+    background-position: center center;
+    background-repeat: none;
 }
 
 header .intro-text {
