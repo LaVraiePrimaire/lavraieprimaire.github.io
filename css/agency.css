@@ -22,7 +22,7 @@ body {
 
 p {
     font-size: 3vw;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -583,4 +583,25 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #D3091D;
+}
+
+
+h4,h5,h6 {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+ol {
+    text-align: left;
+}
+
+li {
+    min-height: 11vh;
+    height: auto;
+}
+
+@media(max-width:400px) {
+    ol {
+        padding-left: 0px;
+    }
 }

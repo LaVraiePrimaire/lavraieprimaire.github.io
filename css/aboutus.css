@@ -11,6 +11,17 @@
 .team-member h4{margin-top:25px;margin-bottom:0;text-transform:none; text-align: center}
 .team-member p{margin:0, 5px, 0, 5px; font-size: 12px;}
 
+.organizer p{
+    font-size: 14;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+
+
 .carousel {
 	border-radius: 2px;
 	border:1px solid rgba(211, 9, 29, .1);
@@ -101,26 +112,3 @@
 	margin-top: 3%;
 }
 
-h4,h5,h6 {
-	margin-bottom: 10px;
-	line-height: 1.5;
-}
-
-ol {
-	text-align: left;
-}
-
-li {
-	min-height: 11vh;
-	height: auto;
-}
-
-.organizer p{
-	font-size: 14;
-}
-
-@media(max-width:400px) {
-	ol {
-		padding-left: 0px;
-	}
-}
