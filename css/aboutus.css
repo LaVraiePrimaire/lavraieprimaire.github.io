@@ -112,6 +112,7 @@ ol {
 
 li {
 	height: 11vh;
+	min-height: auto;
 }
 
 .organizer p{
