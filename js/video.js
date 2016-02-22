@@ -9,7 +9,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '390',
     width: '640',
-    videoId: 'pZwk5uAE51A',
+    videoId: 'EjqjboSZV8Y',
     modestbranding: 1,
     origin: 'http://www.lavraieprimaire.fr',
     rel: 0,
